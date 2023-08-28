@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
+    <link rel="stylesheet" href="./style.css">
+    
+    <link rel="shortcut icon" href="./img/keyboard.png" type="image/x-icon">
+
+    <title>Keyboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Події клавіатури</h1>
+
+        <section>
+            <p><b>Технічне завдання</b></p>
+            <p>1. При введенні символу input (латиниця, нижній регістр) - клавіші з таким символом присвоюється клас .active. Клавіша
+            фарбується помаранчевим фоном.</p>
+            <p>2. Тобто при введенні наступного символу попередня клавіша втратить помаранчевий фон, а нова введена забарвиться. </p>
+            <p>3. Додано всі цифри та другий ряд клавіш від a до l</p>
+            <p>4. Додано клавішу alt, enter.</p>
+
+            <div>
+
+                <input type="text" class="i">
+                <div class="out">
+                    <div class="keyboard" data="q">q</div>
+                    <div class="keyboard" data="w">w</div>
+                    <div class="keyboard" data="e">e</div>
+                    <div class="keyboard" data="r">r</div>
+                    <div class="keyboard" data="1">1</div>
+                    <div class="keyboard" data="2">2</div>
+                    <div class="keyboard" data="3">3</div>
+                    <div class="keyboard" data="space">space</div>
+                    <div class="keyboard" data="ctrl">ctrl</div>
+                </div>
+        </section>
+
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>

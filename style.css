@@ -1,0 +1,35 @@
+.container  {
+    width: 100%;
+ }
+ 
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.out {
+    display: flex;
+    justify-content: space-between;
+}
+
+.keyboard {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    margin: 15px;
+    border-radius: 6px;
+    line-height: 48px;
+    text-align: center;
+    background: rgb(220, 220, 220);
+}
+
+.keyboard[data="space"] {
+    width: 112px;
+}
+
+.active {
+    background: orange;
+}
+
+
