@@ -13,6 +13,7 @@
 Загалом, цей код використовує JavaScript для динамічного створення та управління віртуальною клавіатурою на сторінці, змінюючи її розташування та стиль відповідно до заданих параметрів.
 
 ===============================================
+
 English.
 
 This code is part of a functionality that creates and styles a virtual keyboard on a web page. The main steps in the code are as follows:
